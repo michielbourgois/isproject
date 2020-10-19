@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tricksproject.gui.StudentAddController">
+   <children>
+      <Label layoutX="35.0" layoutY="45.0" prefHeight="17.0" prefWidth="92.0" text="Naam" />
+      <TextField fx:id="txtNaam" layoutX="181.0" layoutY="40.0" prefHeight="27.0" prefWidth="200.0" />
+      <TextField fx:id="txtNummer" layoutX="181.0" layoutY="81.0" prefHeight="27.0" prefWidth="200.0" />
+      <Label layoutX="35.0" layoutY="86.0" text="Studentnummer" />
+      <Button fx:id="addStudentBtn" layoutX="181.0" layoutY="289.0" mnemonicParsing="false" onAction="#addStudent" onContextMenuRequested="#testMethode" text="Add Student" />
+      <Label layoutX="37.0" layoutY="159.0" prefHeight="17.0" prefWidth="89.0" text="Summary" />
+      <TextArea fx:id="txtSummary" layoutX="181.0" layoutY="159.0" prefHeight="114.0" prefWidth="200.0" />
+      <CheckBox fx:id="chkFullTime" layoutX="181.0" layoutY="121.0" mnemonicParsing="false" text="FullTime" />
+      <CheckBox fx:id="chkGraduate" layoutX="300.0" layoutY="121.0" mnemonicParsing="false" text="Graduate" />
+      <Label fx:id="testLbl" layoutX="82.0" layoutY="328.0" text="Test" />
+   </children>
+</AnchorPane>
